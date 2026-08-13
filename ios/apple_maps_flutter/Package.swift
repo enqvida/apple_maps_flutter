@@ -13,7 +13,7 @@ let package = Package(
   targets: [
     .target(
       name: "apple_maps_flutter",
-      path: "../Classes"
+      path: "Sources/apple_maps_flutter"
     ),
   ]
 )
