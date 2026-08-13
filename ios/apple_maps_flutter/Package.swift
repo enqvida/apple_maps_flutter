@@ -11,6 +11,9 @@ let package = Package(
     .library(name: "apple-maps-flutter", targets: ["apple_maps_flutter"]),
   ],
   targets: [
-    .target(name: "apple_maps_flutter"),
+    .target(
+      name: "apple_maps_flutter",
+      path: "../Classes"
+    ),
   ]
 )
