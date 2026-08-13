@@ -13,7 +13,6 @@ A new flutter plugin project.
   s.author           = { 'Your Company' => 'email@example.com' }
   s.source           = { :path => '.' }
   s.source_files = 'apple_maps_flutter/Sources/apple_maps_flutter/**/*'
-  s.public_header_files = 'apple_maps_flutter/Sources/apple_maps_flutter/**/*.h'
   s.dependency 'Flutter'
 
   s.ios.deployment_target = '9.0'
